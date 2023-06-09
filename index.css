@@ -1,0 +1,303 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 75px;
+background-color: black;
+width: 100%;
+padding: 20px;
+position: fixed;
+}
+
+.Menu {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  list-style: none;
+  font-size: x-large;
+  font-weight: 700;
+}
+#profile img{
+border-radius: 100px;
+height: 300px;width: 230px;
+}
+.menubar{color: aliceblue;
+text-decoration: none;}
+.menubar:hover{
+  cursor: pointer;  
+  user-select: none;
+  text-decoration-line: underline;
+  opacity: 0.5;
+}
+.logo{
+  padding-top: 20px;
+}
+#home{
+  
+  height: 600px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:white;
+  padding-top: 100px;
+}
+#icon{position: fixed;padding-top: 20px;
+}
+#icon img{
+  background-color: white;
+  background-size: cover;
+  padding: 5px;
+  margin: 4px;
+  cursor: pointer;border-radius: 10px;
+}
+#icon a:hover{
+  opacity: 0.5;
+}
+#homecontent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  margin: 200px;
+  margin-right: 0px;
+  padding-top: 50px;
+
+}
+#hcontent{
+  width: 700px;
+  height: 400px;
+  word-spacing: 5px;
+  padding-right: 100px;
+}
+#hcontent h1{
+font-size: 7ch;
+
+}
+#hcontent h3{
+  font-size: 4ch;
+  }
+#hcontent p{
+  font-size: 2.5ch;
+  text-align: justify;
+  padding: 2px;
+}
+#profile{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  
+}
+.page{
+  background-color: black;
+  color: white;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+}
+.hr{
+  border-width: 7px;
+  border-color: rgb(71, 70, 70);
+}
+.adiv{
+  height: 300px;
+  width: 1000px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(4, 33, 95);
+  padding: 10px;
+  user-select: none;
+}
+#aa{
+  font-size: 4ch;
+  text-decoration: underline;
+  color: yellowgreen
+}
+.acontentdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+.acontentdiv h1{
+  font-size: 5ch;
+  padding: 5px;text-align: end;padding-right: 40px;
+}
+.acontentdiv div{
+  width: 500px;
+  font-size: 2.3ch;
+  text-align: justify;
+  padding-right: 10px;
+}
+.skillpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.skillpage h1{
+  font-size: 5ch;
+  padding-right: 20px;
+  text-decoration: underline skyblue;
+}
+.skilldivs span:hover{opacity: 0.5;}
+.skillpage h3{
+  font-size: 3ch;
+  padding: 20px;
+}
+.skilldivs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  
+}
+.skilldivs span{
+border-radius: 5px;
+text-align: center;
+font-size: 2.5ch;font-weight: 600;
+cursor: pointer;
+padding: 10px;background-color: rgb(89, 129, 145);color: rgb(200, 240, 21);
+}
+.workpage{
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.workdivs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+align-items: center;
+text-align: center;
+height: 400px;
+width: 900px;
+padding: 10px;
+}
+
+.wdiv{height: 150px;
+  width: 250px;
+}
+.w1{
+  height: 150px;
+  width: 250px;
+  position: absolute;
+display: block;
+border-radius: 10px;color: black;padding: 10px;
+display: flex;flex-direction: column;
+justify-content: center;background-color: rgb(59, 241, 22);
+align-items: center;border: 1px solid rgb(107, 103, 103);
+}
+
+.w11{
+  height: 150px;
+  width: 250px;
+  position: absolute;background-color: rgb(17, 179, 228);
+font-family: 'Times New Roman', Times, serif;
+color: darkblue; border-radius: 10px;
+display: flex;flex-direction: column;
+justify-content: center;
+align-items: center;padding: 0px;
+}
+.w11 button{
+  background-color: rgb(228, 126, 10);font-size: 2ch;border-radius: 10px;
+  width: 140px;height: 30px;color:darkmagenta;font-weight: 600;
+}
+.w1:hover{
+  display: none;
+}
+
+
+.workpage h1{
+  font-size: 5ch;color: rgba(11, 243, 23, 0.973);
+  text-decoration: underline skyblue;padding: 5px;
+}
+#contactdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 780px;
+  height: 500px;
+}
+#c-h1{font-size: 6ch;text-align: center;text-decoration: underline;color: rgb(216, 252, 14);
+padding-top: 100px;
+height: 100px;}
+.c-formdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+width: 300px;
+}
+.c-formdiv p{font-size: 4ch;color: rgba(9, 233, 121, 0.966);padding: 10px;text-decoration: underline;font-weight: 600;}
+.c-formdiv input{
+  border-radius: 10px;
+  height: 30px;padding: 10px;font-size: 2ch;font-weight: 600;color: black;background-color: rgb(192, 226, 240)
+}
+.c-formdiv textarea{border-radius: 10px;padding: 10px;font-size: 2.7ch;font-weight: 600;color: black;
+  background-color: rgb(189, 222, 235)}
+.c-formdiv button{
+  border-radius: 10px;
+  height: 40px;padding: 10px;font-size: 2ch;font-weight: 600;color: black;text-align: center;
+  background-color: yellow;cursor: pointer;
+}
+.c-formdiv button:hover{opacity: 0.5;}
+
+#ctdiv{
+width: 400px;
+height: 200px;
+}
+#ctdiv h1{font-size:5ch;color:rgba(9, 233, 121, 0.966) ;text-decoration: underline;}
+#ctdiv p{font-size: 2.5ch; color:rgb(247, 81, 150) ;}
+#ctdiv a{font-size: 2.8ch;color: deepskyblue; padding: 5px; text-decoration: none;}
+#ctdiv div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  font-size: 3.3ch;
+}
+
+.workdetailbox{
+  width: 900px;
+  background-color: rgb(14, 11, 11);
+  padding: 10px;
+}
+.workdetailbox__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;font-size: 3ch;
+}
+.workdetailbox__title h1{
+  color: rgb(44, 253, 2);text-decoration: underline;
+}
+.workdetailbox__title button{
+  border-radius: 10px;cursor: pointer;
+  height: 4s0px;width: 45px;font-size: 3.5ch;background-color: red;color: white;overflow: hidden;
+}
+.workdetailbox__title button:hover{opacity: 0.5;}
+.workdetailbox_content h2{
+  color: rgb(2, 161, 253); height: 40px;
+}
+.workdetailbox_content h3{color: yellow;text-decoration: underline;height: 30px;}
+.workdetailbox_content ul li{padding: 2px;}
